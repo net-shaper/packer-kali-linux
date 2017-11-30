@@ -5,6 +5,7 @@
             "execute_command": "sudo -S sh '{{.Path}}'",
             "scripts": [
                 "scripts/base.sh",
+                "scripts/vm.sh",
                 "scripts/user.sh"
             ],
             "expect_disconnect": true
